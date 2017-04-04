@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="484dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pop_bg"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            style="@style/calendar_month_btn"
+            android:src="@drawable/pop_back" />
+
+
+        <ImageButton
+            android:id="@+id/btnFirst"
+            style="@style/calendar_month_btn"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/pop_first" />
+
+        <TextView
+            android:id="@+id/txtCurrentMonth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="2016년 2월"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnLast"
+            style="@style/calendar_month_btn"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/pop_last" />
+
+        <ImageButton
+            android:id="@+id/btnNext"
+            style="@style/calendar_month_btn"
+            android:src="@drawable/pop_next" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:background="#f2edcb"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/calendar_day_of_week"
+            android:text="@string/sunday"
+            android:textColor="#fa5555" />
+
+        <TextView
+            style="@style/calendar_day_of_week"
+            android:text="@string/monday" />
+
+        <TextView
+            style="@style/calendar_day_of_week"
+            android:text="@string/tuesday" />
+
+        <TextView
+            style="@style/calendar_day_of_week"
+            android:text="@string/wednesday" />
+
+        <TextView
+            style="@style/calendar_day_of_week"
+            android:text="@string/thursday" />
+
+        <TextView
+            style="@style/calendar_day_of_week"
+            android:text="@string/friday" />
+
+        <TextView
+            style="@style/calendar_day_of_week"
+            android:text="@string/saturday" />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gridCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:columnCount="7"
+        android:rowCount="6">
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:background="@drawable/selector_pop_calendar_day_cell_sunday" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:text="1" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:layout_marginRight="0dp"
+            android:text="2" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:background="@drawable/selector_pop_calendar_day_cell_sunday"
+            android:text="3" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:text="4" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:text="5" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:layout_marginRight="0dp" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:background="@drawable/selector_pop_calendar_day_cell_sunday" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:layout_marginRight="0dp" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:background="@drawable/selector_pop_calendar_day_cell_sunday" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:layout_marginRight="0dp" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:background="@drawable/selector_pop_calendar_day_cell_sunday" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView style="@style/calendar_day_cell" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:layout_marginRight="0dp" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/selector_pop_calendar_day_cell_sunday" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:layout_marginBottom="0dp" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:layout_marginBottom="0dp" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:layout_marginBottom="0dp" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:layout_marginBottom="0dp" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:layout_marginBottom="0dp" />
+
+        <TextView
+            style="@style/calendar_day_cell"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="0dp" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/txtSelectedDate"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/pop_bg1"
+        android:gravity="center"
+        android:text="선택일자 : 2016년 1월 12일"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/selector_pop_bt2"
+            android:text="@string/confirm"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/selector_pop_bt2"
+            android:text="@string/cancel"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="popup_border_width">1dp</dimen>
+    <dimen name="popup_bg_radius">16dp</dimen>
+    <dimen name="popup_title_radius">16dp</dimen>
+    <dimen name="popup_calendar_day_cell_bg_radius">10dp</dimen>
+</resources>
